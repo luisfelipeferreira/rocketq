@@ -24,3 +24,33 @@ html{
     font-size: 62.5%; /*Tranformando padrão em 10px*/
     /* 1rem = 16px*/
 }
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: var(--background);
+}
+
+body, button, input, textarea{
+    /*clamp é o intervalo de tamanho*/
+     font-size: clamp(14px, 1.6rem, 2vw);
+     font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.content{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sr-onLy{
+    position: absolute;
+    height: 1px;
+    width:  1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
