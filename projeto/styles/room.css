@@ -1,9 +1,13 @@
+.content{
+    max-width: min(112rem, 90%);
+}
+
 #room header{
     width: 100%;
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #room header .buttons{
@@ -28,4 +32,58 @@
 #room header .buttons .button:nth-child(2) img{
     width: 2rem;
     height: 2rem;
+}
+
+/*------ Question Form */
+#question-forms h2{
+    margin-bottom: 2.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: var(--black);
+    line-height: 4.2rem;
+}
+
+#question-forms form{
+    border: .2rem solid var(--grey-blue);
+    padding: 1.6rem;
+    border-radius: 0 .8rem .8rem .8rem;
+}
+
+#question-forms form textarea{
+    background: transparent;
+    resize: none;
+    outline: none;
+    width: 100%;
+}
+
+#question-forms form textarea::placeholder{
+    color: var(--grey-blue);
+}
+
+#question-forms form footer{
+    display: flex;
+    align-items: center;
+    line-height: 0;
+
+    justify-content: space-between;
+}
+
+#question-forms form footer > div{
+    display: flex;
+    align-items: center;
+    color: var(--icon-details);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+#question-forms form footer button{
+    height: auto;
+    line-height: 2.4rem;
+    padding: .8rem 2.4rem;
+}
+
+#question-forms form footer > div img{
+    margin-right: .9rem;
 }

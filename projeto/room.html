@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/room.css">
     <!-- link para fontes -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;700&display=swap"
         rel="stylesheet">
 </head>
 
@@ -37,6 +37,46 @@
                 </a>
             </div>
         </header>
+
+        <main>
+            <section id="question-forms">
+                <h2>Faça sua Pergunta</h2>
+                <form action="">
+                    <label class="sr-onLy" for-id="question">O que você quer perguntar?</label>
+                    <textarea name="question" id="question" placeholder="O que você quer perguntar?">
+
+                    </textarea>
+                    <footer>
+                        <div>
+                            <img src="assets/lock.svg" alt="Imagem de cadeado">
+                            Esta pergunta é anonima
+                        </div>
+                        <button>Enviar</button>
+                    </footer>
+
+                </form>
+            </section>
+
+            <section id="questions">
+                <h2 class="sr-onLy">Perguntas da comunidade</h2>
+                <div class="questions">
+                    <div class="question-wrapper">
+                        <div class="question-content">
+                            <div class="user">
+                                <img src="" alt="">
+                            </div>
+                            <div class="question">
+
+                            </div>
+                        </div>
+                        <div class="actions">
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
 
     </div>
 </body>
