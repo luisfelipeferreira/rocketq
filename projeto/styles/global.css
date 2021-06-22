@@ -110,7 +110,8 @@ button.outlined,
 .ball{
     width: 21.2rem;
     height: 21.2rem;
-    background: var(--ligth-blue);
+    background: var(--blue);
+    opacity: 0.1;
 
     clip-path: circle();
 
