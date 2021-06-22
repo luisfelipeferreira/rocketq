@@ -45,6 +45,7 @@
 }
 
 #question-forms form{
+    margin-bottom: 1.6rem;
     border: .2rem solid var(--grey-blue);
     padding: 1.6rem;
     border-radius: 0 .8rem .8rem .8rem;
@@ -86,4 +87,8 @@
 
 #question-forms form footer > div img{
     margin-right: .9rem;
+}
+
+#questions{
+    
 }
