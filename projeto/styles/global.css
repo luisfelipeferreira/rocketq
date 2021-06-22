@@ -26,6 +26,7 @@ html{
 }
 
 body{
+    display: flex;
     height: 100vh;
     width: 100vw;
     background: var(--background);
@@ -82,7 +83,7 @@ button:hover , .button:hover{
     filter: brightness(1.2);
 }
 
-button > img
+button > img,
 .button > img{
     margin-right: 1rem;
     width: 2rem;
@@ -102,4 +103,29 @@ button.outlined,
 
 .content header img{
     width: 16.7rem;
+}
+
+/* ----Creat balls */
+
+.ball{
+    width: 21.2rem;
+    height: 21.2rem;
+    background: var(--ligth-blue);
+
+    clip-path: circle();
+
+    position: fixed;
+}
+
+.ball.top{
+    width: 63.3rem;
+    height: 63.3rem;
+
+    top: -46rem;
+    right: -35rem;
+}
+
+.ball.bottom{
+    bottom: -15rem;
+    right: 5.6rem;
 }
