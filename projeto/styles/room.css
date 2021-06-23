@@ -122,6 +122,7 @@
 
 .question-wrapper .question-content p{
     margin-left: 1.6rem;
+    word-break: break-word;
 }
 
 .question-wrapper .actions{
