@@ -34,7 +34,9 @@
     height: 2rem;
 }
 
-/*------ Question Form */
+/* ------------------------------------------------------------------------------------------------- */
+
+/* Question Form */
 #question-forms h2{
     margin-bottom: 2.4rem;
     font-family: 'Poppins', sans-serif;
@@ -89,6 +91,42 @@
     margin-right: .9rem;
 }
 
-#questions{
-    
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* Questions */
+
+.question-wrapper{
+    background: var(--ligth-blue);
+    margin-bottom: .8rem;
+    border-radius: 0 .8rem .8rem .8rem;
+    padding: 2.4rem;
+}
+
+.question-wrapper .question-content{
+    display: flex;
+    align-items: center;
+}
+
+.question-wrapper .actions > a > img{
+    margin-right: .8rem;
+}
+
+.question-wrapper .question-content p{
+    margin-left: 1.6rem;
+}
+
+.question-wrapper .actions{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.question-wrapper .actions > a{
+    display: flex;
+    align-items: center;
+
+}
+
+.question-wrapper .actions  > a + a{
+    margin-left: 2.4rem;
 }
