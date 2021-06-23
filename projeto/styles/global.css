@@ -21,6 +21,8 @@ html{
     --grey-medium: #D3D9E2;
     --grey-light: #E5EAF1;
 
+    --grey-opacity:#EAECF1;
+
     font-size: 62.5%; /*Tranformando padrão em 10px*/
     /* 1rem = 16px*/
 }
