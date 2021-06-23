@@ -59,6 +59,18 @@ body, button, input, textarea{
 }
 
 /* ---------- Input and buttons */
+button.red,
+.button.red{
+    background: var(--red);
+    color: var(--white);
+}
+
+button.grey,
+.button.grey{
+    background: var(--grey-light);
+    color: var(--grey-dark);
+}
+
 input, button, .button{
     border-radius: .8rem;
     height: 5rem;
@@ -97,6 +109,9 @@ button.outlined,
     color: var(--blue);
     border: .2rem solid var(--blue);
 }
+
+/* -------------------------------- */
+/* Header */
 
 .content header{
     width: 80%;
