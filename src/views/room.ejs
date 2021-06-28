@@ -63,6 +63,10 @@
 
                     <!-- Questions -->
 
+                    <% if(isNoQuestion){ %> 
+                        <%- include('parts/noquestion') %> 
+                    <% } %> 
+
                     <% questions.forEach(question => {%>
 
                         <div class="question-wrapper">
